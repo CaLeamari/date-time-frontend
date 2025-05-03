@@ -7,3 +7,4 @@ fetch('https://apidatahora-3.onrender.com/datetime')
     document.getElementById('datetime').innerText = 'Erro ao carregar data/hora';
     console.error(error);
   });
+  
